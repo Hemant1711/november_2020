@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HK_21Nov]">
+  <parameter name="B" value="IE"/>
+  <test name="NG_BrowserCheck">
+    <parameter name="B" value="IE"/>
+    <classes>
+      <class name="mod5.BrowserTest"/>
+    </classes>
+  </test> <!-- NG_BrowserCheck -->
+</suite> <!-- Failed suite [HK_21Nov] -->

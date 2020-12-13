@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HK_18Nov1]">
+  <test name="NG_Test1">
+    <classes>
+      <class name="mod4.hk_NG_Test"/>
+    </classes>
+  </test> <!-- NG_Test1 -->
+</suite> <!-- Failed suite [HK_18Nov1] -->

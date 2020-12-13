@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HK_19Nov1]">
+  <test name="NG_Stock1">
+    <classes>
+      <class name="mod4.STock_TestNG"/>
+    </classes>
+  </test> <!-- NG_Stock1 -->
+  <test name="NG_Stock1(failed)">
+    <classes>
+      <class name="mod4.STock_TestNG">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="OpenAUT"/>
+          <include name="Maximizing"/>
+          <include name="Currency"/>
+          <include name="StockCheck"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- mod4.STock_TestNG -->
+    </classes>
+  </test> <!-- NG_Stock1(failed) -->
+</suite> <!-- Failed suite [HK_19Nov1] -->
